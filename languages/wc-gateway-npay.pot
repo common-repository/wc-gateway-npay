@@ -1,0 +1,211 @@
+# Copyright (C) 2016 AxisThemes
+# This file is distributed under the GPLv3 or later.
+msgid ""
+msgstr ""
+"Project-Id-Version: WC Gateway nPay 1.0.0\n"
+"Report-Msgid-Bugs-To: https://github.com/axisthemes/wc-gateway-npay/issues\n"
+"POT-Creation-Date: 2016-04-16 14:57:59+00:00\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"PO-Revision-Date: 2016-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <EMAIL@ADDRESS>\n"
+"X-Generator: grunt-wp-i18n 0.5.4\n"
+
+#: includes/class-wc-npay-gateway.php:36
+msgid "Proceed to nPay"
+msgstr ""
+
+#: includes/class-wc-npay-gateway.php:37 includes/includes/settings-npay.php:22
+msgid "nPay"
+msgstr ""
+
+#: includes/class-wc-npay-gateway.php:38
+msgid ""
+"The nPay epay system sends customers to nPay to enter their payment "
+"information. The nPay IPN requires fsockopen/cURL and SoapClient support to "
+"update order statuses after payment. Check the %ssystem status%s page for "
+"more details."
+msgstr ""
+
+#: includes/class-wc-npay-gateway.php:100
+msgid "Gateway Disabled"
+msgstr ""
+
+#: includes/class-wc-npay-gateway.php:100
+msgid "nPay does not support your store currency."
+msgstr ""
+
+#: includes/class-wc-npay-gateway.php:149
+msgid ""
+"Thank you - your order is now pending payment. You should be automatically "
+"redirected to nPay to make payment."
+msgstr ""
+
+#: includes/class-wc-npay-gateway.php:175
+msgid ""
+"Thank you for your order. We are now redirecting you to nPay to make "
+"payment."
+msgstr ""
+
+#: includes/class-wc-npay-gateway.php:197
+msgid "Pay via nPay"
+msgstr ""
+
+#: includes/class-wc-npay-gateway.php:197
+msgid "Cancel order &amp; restore cart"
+msgstr ""
+
+#: includes/class-wc-npay-gateway.php:259
+msgid "Payment for the order %s"
+msgstr ""
+
+#: includes/includes/class-wc-gateway-npay-ipn-handler.php:56
+msgid "nPay IPN response failed."
+msgstr ""
+
+#: includes/includes/class-wc-gateway-npay-ipn-handler.php:153
+msgid "Validation error: nPay amounts do not match (gross %s)."
+msgstr ""
+
+#: includes/includes/class-wc-gateway-npay-ipn-handler.php:172
+msgid "IPN payment completed"
+msgstr ""
+
+#: includes/includes/class-wc-gateway-npay-ipn-handler.php:174
+msgid "Payment pending: %s"
+msgstr ""
+
+#: includes/includes/class-wc-gateway-npay-ipn-handler.php:184
+msgid "Payment %s via IPN."
+msgstr ""
+
+#: includes/includes/settings-npay.php:12
+msgid "Enable/Disable"
+msgstr ""
+
+#: includes/includes/settings-npay.php:14
+msgid "Enable nPay Payment"
+msgstr ""
+
+#: includes/includes/settings-npay.php:18
+msgid "Title"
+msgstr ""
+
+#: includes/includes/settings-npay.php:21
+msgid "This controls the title which the user sees during checkout."
+msgstr ""
+
+#: includes/includes/settings-npay.php:25
+msgid "Description"
+msgstr ""
+
+#: includes/includes/settings-npay.php:28
+msgid "This controls the description which the user sees during checkout."
+msgstr ""
+
+#: includes/includes/settings-npay.php:29
+msgid "Pay via nPay; you can pay with nPay account securely."
+msgstr ""
+
+#: includes/includes/settings-npay.php:32
+msgid "Sandbox Mode"
+msgstr ""
+
+#: includes/includes/settings-npay.php:34
+msgid "Enable Sandbox Mode"
+msgstr ""
+
+#: includes/includes/settings-npay.php:36
+msgid ""
+"Enable nPay sandbox to test payments. Sign up for a developer account "
+"%shere%s."
+msgstr ""
+
+#: includes/includes/settings-npay.php:39
+msgid "Debug Log"
+msgstr ""
+
+#: includes/includes/settings-npay.php:41
+msgid "Enable logging"
+msgstr ""
+
+#: includes/includes/settings-npay.php:43
+msgid "Log nPay events, such as IPN requests, inside <code>%s</code>"
+msgstr ""
+
+#: includes/includes/settings-npay.php:46
+msgid "Merchant Credentials"
+msgstr ""
+
+#: includes/includes/settings-npay.php:48
+msgid "Enter your nPay Merchant credentials to process payment via nPay."
+msgstr ""
+
+#: includes/includes/settings-npay.php:51
+msgid "Merchant ID"
+msgstr ""
+
+#: includes/includes/settings-npay.php:54
+#: includes/includes/settings-npay.php:62
+#: includes/includes/settings-npay.php:70
+#: includes/includes/settings-npay.php:78
+msgid "Get your Merchant credentials from nPay."
+msgstr ""
+
+#: includes/includes/settings-npay.php:59
+msgid "Merchant Username"
+msgstr ""
+
+#: includes/includes/settings-npay.php:67
+msgid "Merchant Password"
+msgstr ""
+
+#: includes/includes/settings-npay.php:75
+msgid "Signature Password"
+msgstr ""
+
+#: wc-gateway-npay.php:109
+msgid "View Settings"
+msgstr ""
+
+#: wc-gateway-npay.php:109
+msgid "Settings"
+msgstr ""
+
+#: wc-gateway-npay.php:121
+msgid ""
+"WooCommerce nPay needs to have the SOAP module installed on your server to "
+"work!"
+msgstr ""
+
+#: wc-gateway-npay.php:125
+msgid "WooCommerce nPay depends on the last version of %s or later to work!"
+msgstr ""
+
+#: wc-gateway-npay.php:125
+msgid "WooCommerce 2.3"
+msgstr ""
+
+#. Plugin Name of the plugin/theme
+msgid "WC Gateway nPay"
+msgstr ""
+
+#. Plugin URI of the plugin/theme
+msgid "https://github.com/axisthemes/wc-gateway-npay"
+msgstr ""
+
+#. Description of the plugin/theme
+msgid ""
+"WooCommerce nPay is a Nepali payment gateway with SCT Cards support for "
+"WooCommerce."
+msgstr ""
+
+#. Author of the plugin/theme
+msgid "AxisThemes"
+msgstr ""
+
+#. Author URI of the plugin/theme
+msgid "http://axisthemes.com"
+msgstr ""
